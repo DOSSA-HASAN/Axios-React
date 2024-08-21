@@ -1,8 +1,12 @@
-# React + Vite
+# UserList Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React component fetches and displays a list of users from an external API. It handles loading, error states, and displays each user's data using a `User` component.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches user data from `https://jsonplaceholder.typicode.com/users` using Axios.
+- Displays a loading message while data is being fetched.
+- Handles and displays errors if the data fetch fails.
+
+## LIVE DEMO
+[**LIVE DEMO**](https://fetch-axios-react.netlify.app/)
